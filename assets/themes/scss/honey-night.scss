@@ -1,0 +1,26 @@
+$theme-slug:   'honey-night' !default;
+
+$background: rgb(30, 30, 30) !default;
+$foreground: rgb(210, 210, 210) !default;
+$selection:  rgb( 80, 80, 80) !default;
+$comment:    rgb(180, 180, 180) !default;
+$red:        rgb(250, 120, 120) !default;
+$yellow:     rgb(255, 210, 40) !default;
+$purple:     rgb(200, 150, 200) !default;
+$aqua:       rgb(100, 200, 200) !default;
+$green:      rgb(150, 200, 150) !default;
+$blue:       rgb(100, 180, 253) !default;
+$orange:     rgb(255, 156, 62) !default;
+
+//Config
+$italic-family: 'Fira Code iScript', Consolas, Monaco, 'Courier New', Courier, monospace;
+$italic-style:  italic !default;
+
+$font-size:   16px !default;
+$font-weight: normal !default;
+
+$use-radius:    true !default;
+$border-radius: 6px !default;
+$padding: 30px;
+
+@import './utils/honey-base';

@@ -1,0 +1,28 @@
+$theme-slug: 'tomorrow-night' !default;
+
+// Colors
+$background: #1d1f21 !default;
+$foreground: #c5c8c6 !default;
+$selection:  #373b41 !default;
+$comment:    #969896 !default;
+$red:        #cc6666 !default;
+$yellow:     #f0c674 !default;
+$purple:     #b294bb !default;
+$aqua:       #8abeb7 !default;
+$green:      #b5bd68 !default;
+$blue:       #81a2be !default;
+$orange:     #de935f !default;
+
+
+//Config
+$italic-family: Menlo, Consolas, monaco, monospace;
+$italic-style:  italic !default;
+
+$font-size:   16px !default;
+$font-weight: normal !default;
+
+$use-radius:    false !default;
+$border-radius: 0px !default;
+$padding: 30px;
+
+@import './utils/base';

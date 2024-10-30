@@ -1,0 +1,28 @@
+$theme-slug: 'tomorrow' !default;
+
+// Colors
+$background: #ffffff !default;
+$foreground: #4d4d4c !default;
+$selection:  #d6d6d6 !default;
+$comment:    #8e908c !default;
+$red:        #c82829 !default;
+$yellow:     #eab700 !default;
+$purple:     #8959a8 !default;
+$aqua:       #3e999f !default;
+$green:      #718c00 !default;
+$blue:       #4271ae !default;
+$orange:     #f5871f !default;
+
+
+//Config
+$italic-family: Menlo, Consolas, monaco, monospace;
+$italic-style:  italic !default;
+
+$font-size:   16px !default;
+$font-weight: normal !default;
+
+$use-radius:    false !default;
+$border-radius: 0px !default;
+$padding: 30px;
+
+@import './utils/base';

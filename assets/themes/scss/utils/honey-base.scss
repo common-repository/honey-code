@@ -1,0 +1,109 @@
+pre {
+	&.#{$theme-slug} {
+		background-color: $background;
+		border-radius: $border-radius;
+		color: $foreground;
+		font-family: 'Fira Code iScript';
+		font-size: $font-size;
+		font-weight: $font-weight;
+		padding: $padding;
+		user-select: text;
+		white-space: pre;
+		code {
+			background: none; // Fix for Core Wordpress.
+			font-size: 16px;
+		}
+
+		&::selection {
+			background-color: $selection;
+			color: $foreground;
+		}
+
+		> *::selection,
+		span::selection {
+			background-color: $selection;
+			color: $foreground;
+		}
+
+		.comment {
+			color: $comment;
+			font-family: $italic-family;
+			font-style: $italic-style;
+			padding-left: 0;
+		}
+
+		.variable {
+			color: $red;
+
+			&.language {
+				color: $orange;
+			}
+
+			&.global,
+			&.class,
+			&.instance {
+				font-family: $italic-family;
+				font-style: $italic-style;
+			}
+
+		}
+
+		.constant.numeric,
+		.constant.language,
+		.constant.hex-color,
+		.keyword.unit {
+			color: $orange;
+		}
+
+		.constant,
+		.entity,
+		.entity.class,
+		.support {
+			color: $yellow;
+		}
+
+		.support {
+			color: $yellow;
+
+			&.tag {
+				color: $red;
+			}
+
+			&.tag-name {
+				color: $yellow;
+			}
+
+			&.attribute {
+				color: $purple;
+				font-family: $italic-family;
+				font-style: $italic-style;
+			}
+
+			&.operator {
+				color: $aqua;
+			}
+		}
+		.function {
+			color: $blue;
+		}
+
+		.constant.symbol,
+		.string {
+			color: $green;
+		}
+
+		.entity.function,
+		.support.css-property,
+		.selector {
+			color: $blue;
+		}
+
+		.keyword,
+		.storage {
+			color: $purple;
+			font-family: $italic-family;
+			font-style: $italic-style;
+		}
+
+	}
+}

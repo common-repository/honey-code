@@ -1,0 +1,28 @@
+$theme-slug: 'honey-leather' !default;
+
+// Colors
+$background: rgb(250, 250, 250) !default;
+$foreground: rgb(75, 75, 75) !default;
+$selection:  rgb(210, 210, 210) !default;
+$comment:    rgb(100, 100, 100) !default;
+$red:        rgb(200, 40, 40) !default;
+$yellow:     rgb(200, 160, 0) !default;
+$purple:     rgb(140, 90, 170) !default;
+$aqua:       rgb(60, 150, 160) !default;
+$green:      rgb(115, 140, 0) !default;
+$blue:       rgb(60, 100, 153) !default;
+$orange:     rgb(245, 135, 30) !default;
+
+//Config
+$italic-family: 'Fira Code iScript', Consolas, Monaco, 'Courier New', Courier, monospace;
+$italic-style:  italic !default;
+
+$font-size:   16px !default;
+$font-weight: 700 !default;
+
+$use-radius:    true !default;
+$border-radius: 6px !default;
+
+$padding: 30px;
+
+@import './utils/honey-base';
